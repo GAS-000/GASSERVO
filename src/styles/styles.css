@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+  min-height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100%;
+  background-color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .App {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+  
+  /* Add more mobile-specific styles here */
+  /* For example: */
+  .your-container-class {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .your-element-class {
+    margin-bottom: 15px;
+  }
+}
+
+/* For even smaller screens like smartphones */
+@media screen and (max-width: 480px) {
+  .App {
+    font-size: 12px; /* Further reduce font size for very small screens */
+  }
+  
+  /* Add more smartphone-specific styles here */
+}
+

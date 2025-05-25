@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a46de52.css",
+    "main.js": "/static/js/main.68efeee6.js",
+    "static/media/mask.svg": "/static/media/mask.4ee30da5a227919ff0d5.svg",
+    "index.html": "/index.html",
+    "static/media/GoodArtSucksContactCard.vcf": "/static/media/GoodArtSucksContactCard.90e087ff9f3a9a8af58b.vcf",
+    "main.0a46de52.css.map": "/static/css/main.0a46de52.css.map",
+    "main.68efeee6.js.map": "/static/js/main.68efeee6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a46de52.css",
+    "static/js/main.68efeee6.js"
+  ]
+}

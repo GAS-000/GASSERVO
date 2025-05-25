@@ -1,0 +1,86 @@
+.gaschat-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gaschat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.gaschat-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.gaschat-header nav {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.gaschat-header nav a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 5px;
+}
+
+.gaschat-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.gaschat-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.gaschat-input,
+.gaschat-textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.gaschat-textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.gaschat-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.gaschat-input-group .gaschat-input {
+  flex-grow: 1;
+}
+
+.gaschat-button {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.gaschat-file-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gaschat-file-input span {
+  font-size: 14px;
+  color: #666;
+}

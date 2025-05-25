@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 14.4.1//EN
+N:;GoodArtSucks ✨;;;
+FN:GoodArtSucks ✨
+EMAIL;type=INTERNET;type=WORK;type=pref:Info@GoodArtsucks.com
+item1.URL;type=pref:GoodArt.sucks
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

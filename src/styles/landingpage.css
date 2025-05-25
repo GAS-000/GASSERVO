@@ -1,0 +1,55 @@
+:root {
+  --background-color: #ffffff;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.landing-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-header h1 {
+  margin: 0;
+  font-size: 24px; /* Adjust this to match GoodArtTube.js */
+  font-weight: bold;
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.emoji-link {
+  text-decoration: none;
+  font-size: 12rem;
+  margin: 0 25px;
+}
+
+.landing-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100px; /* Adjust the height as needed */
+}
+
+.contact-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.emoji-footer {
+  font-size: 1.2rem;
+  text-decoration: none;
+}

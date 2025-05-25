@@ -1,0 +1,43 @@
+.goodartshop-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.goodartshop {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.goodartshop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.goodartshop-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.emoji-link {
+  font-size: 64px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  
+}
+
+.emoji-link:hover {
+  transform: scale(1.1);
+}

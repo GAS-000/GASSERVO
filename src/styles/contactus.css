@@ -1,0 +1,47 @@
+.contactus-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contactus-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.contactus-header nav {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contactus-header nav a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 5px;
+}
+
+.emoji-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-link {
+  font-size: 64px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.emoji-link:hover {
+  transform: scale(1.1);
+}
